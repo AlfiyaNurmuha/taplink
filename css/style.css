@@ -1,3 +1,35 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: #EFEFEF;
+  padding: 15px;
+  font-family: 'Arial', sans-serif;
+}
+.page-wrapper {
+  max-width: 390px;
+  margin: auto;
+  border-radius: 20px 20px 0px 0px;
+  /* border: 1px solid #000; */
+  background: #FFF;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+} 
+.header {
+  
+  color: #FFF;
+  padding: 20px 20px 112px;
+  background: linear-gradient(180deg, rgba(239, 98, 159, 0.00) 0%, rgba(239, 98, 159, 0.80) 100%), linear-gradient(180deg, #EECDA4 99.99%, rgba(238, 205, 164, 0.00) 100%) no-repeat center / cover;
+  border-radius: 20px 20px 0px 0px;
+  height: 164px;
+  width: 390px;
+}
+.solved {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.solved-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
