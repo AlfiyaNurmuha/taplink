@@ -7,15 +7,19 @@ body {
   font-family: 'Arial', sans-serif;
 }
 .page-wrapper {
+  overflow: hidden;
   max-width: 390px;
   margin: auto;
   border-radius: 20px 20px 0px 0px;
   /* border: 1px solid #000; */
   background: #FFF;
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 } 
+.container {
+  max-width: 390px;
+  margin: auto;
+}
 .header {
-  
   color: #FFF;
   padding: 20px 20px 112px;
   background: linear-gradient(180deg, rgba(239, 98, 159, 0.00) 0%, rgba(239, 98, 159, 0.80) 100%), linear-gradient(180deg, #EECDA4 99.99%, rgba(238, 205, 164, 0.00) 100%) no-repeat center / cover;
@@ -33,3 +37,48 @@ body {
   font-weight: 400;
   line-height: 16px;
 }
+/* .user {
+width: 390px;
+} */
+.user-avatar {
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  margin-left: 20px;
+  text-align: left;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ccc;
+}
+.user-about {
+  width: 235px;
+  height: 62px;
+  /* padding-top: 169px;
+  margin-left: 135px; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  justify-items:flex-start;
+  margin-left: 135px;
+  margin-top: -68px; 
+  
+}
+.user-name {
+  height: 44px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #444444;
+}
+.user-description {
+  height: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #888888;
+  margin-top: -35px;
+ }
+
+
+
