@@ -191,14 +191,14 @@ body {
 }
 .button-textreviews {
   display: flex;
-width: 298px;
-height: 24px;
-flex-direction: column;
-justify-content: center;
-color: #FFF;
-font-family: Arial;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  width: 298px;
+  height: 24px;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFF;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
